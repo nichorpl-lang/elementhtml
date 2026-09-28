@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh Kartu Profil</title>
+  <style>
+    /* Reset margin dan padding default */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Mengatur tampilan latar belakang halaman */
+    body {
+      background-color: #f4f6f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    /* Styling container utama (Kartu) */
+    .card {
+      background-color: #ffffff;
+      width: 320px;
+      padding: 30px 24px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+      text-align: center;
+    }
+
+    /* Styling gambar profil */
+    .avatar {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background-color: #4f46e5;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 32px;
+      font-weight: bold;
+      margin: 0 auto 16px;
+    }
+
+    /* Styling judul dan teks */
+    .name {
+      font-size: 20px;
+      color: #1f2937;
+      margin-bottom: 6px;
+    }
+
+    .role {
+      font-size: 14px;
+      color: #6b7280;
+      margin-bottom: 16px;
+    }
+
+    .description {
+      font-size: 14px;
+      color: #4b5563;
+      line-height: 1.5;
+      margin-bottom: 24px;
+    }
+
+    /* Styling tombol */
+    .btn {
+      display: inline-block;
+      width: 100%;
+      padding: 10px 0;
+      background-color: #4f46e5;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background-color 0.2s ease;
+    }
+
+    .btn:hover {
+      background-color: #4338ca;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="avatar">N</div>
+    <h2 class="name">Nicho Developer</h2>
+    <p class="role">Frontend Web Developer</p>
+    <p class="description">
+      Ingin joki game dengan aman dan terpercaya.
+    </p>
+    <a href="#" class="btn">Call Me</a>
+  </div>
+
+</body>
+</html>
