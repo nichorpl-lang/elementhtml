@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pusat Konseling & Layanan Pengaduan Ramah Siswa (BK Online)</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Hubungkan file CSS eksternal -->
+    <link rel="stylesheet" href="Bagian.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">✨ BK Online</div>
+        <ul class="nav-links">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#artikel">Artikel & Tips</a></li>
+            <li><a href="#jadwal">Jadwal Piket</a></li>
+            <li><a href="#daftar">Daftar Konseling</a></li>
+            <li><a href="#darurat">Kontak Darurat</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Banner -->
+    <header id="beranda" class="hero">
+        <h1>Ruang Aman untuk Cerita & Tumbuh Bersama</h1>
+        <p>Jangan pendam sendirian. Guru BK siap mendengarkan dan membantu perjalanan belajarmu dengan penuh kerahasiaan.</p>
+        <a href="#daftar" class="btn">Mulai Konseling Rahasia</a>
+    </header>
+
+    <div class="container">
+
+        <!-- Artikel Motivasi & Tips Belajar -->
+        <section id="artikel">
+            <h2>Artikel & Tips Belajar</h2>
+            <div class="article-grid">
+                <div class="card">
+                    <img src="Asesment-Nasional-Jadi-Pengganti-UN-2021-01-1024x576.png"
+                    width="450"
+                    height="200">
+                    <div class="card-body">
+                        <h3>Tips Manajemen Waktu saat Ujian</h3>
+                        <p>Pelajari cara membagi waktu belajar dengan metode Pomodoro agar tidak mudah stres dan cepat paham.</p>
+                        <a href="#" class="read-more">Baca Selengkapnya &rarr;</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                    <img src="anxiety-blog.jpg"
+                    width="450"
+                    height="200">
+                    </div>
+                    <div class="card-body">
+                        <h3>Cara Mengatasi Kecemasan di Kelas</h3>
+                        <p>Latihan pernapasan sederhana yang bisa kamu lakukan saat merasa gugup atau kewalahan menghadapi tugas.</p>
+                        <a href="#" class="read-more">Baca Selengkapnya &rarr;</a>
+                    </div>
+                </div>
+                <div class="card">
+                     <img src="1689816579.jpg"
+                    width="450"
+                    height="200">
+                    <div class="card-body">
+                        <h3>Membangun Motivasi Belajar dari Dalam</h3>
+                        <p>Temukan apa yang benar-benar memicu semangatmu untuk bersekolah dan meraih cita-cita masa depan.</p>
+                        <a href="#" class="read-more">Baca Selengkapnya &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Jadwal Piket Guru BK -->
+        <section id="jadwal">
+            <h2>Jadwal Piket Guru BK</h2>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Hari</th>
+                            <th>Nama Guru BK</th>
+                            <th>Jam Layanan</th>
+                            <th>Status Ruangan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Senin</td>
+                            <td>Dra. Hj. Siti Aminah, M.Pd.</td>
+                            <td>08.00 - 15.00 WIB</td>
+                            <td><span style="color: green; font-weight: 500;">● Standby</span></td>
+                        </tr>
+                        <tr>
+                            <td>Selasa</td>
+                            <td>Ahmad Fauzi, S.Pd.</td>
+                            <td>08.00 - 15.00 WIB</td>
+                            <td><span style="color: green; font-weight: 500;">● Standby</span></td>
+                        </tr>
+                        <tr>
+                            <td>Rabu</td>
+                            <td>Ratna Sari, S.Psi.</td>
+                            <td>08.00 - 15.00 WIB</td>
+                            <td><span style="color: orange; font-weight: 500;">● Sesi Konseling</span></td>
+                        </tr>
+                        <tr>
+                            <td>Kamis</td>
+                            <td>Dra. Hj. Siti Aminah, M.Pd.</td>
+                            <td>08.00 - 15.00 WIB</td>
+                            <td><span style="color: green; font-weight: 500;">● Standby</span></td>
+                        </tr>
+                        <tr>
+                            <td>Jumat</td>
+                            <td>Ahmad Fauzi, S.Pd.</td>
+                            <td>08.00 - 14.00 WIB</td>
+                            <td><span style="color: green; font-weight: 500;">● Standby</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Formulir Pendaftaran Konseling Rahasia -->
+        <section id="daftar">
+            <h2>Pendaftaran Konseling Rahasia</h2>
+            <div class="form-container">
+                <div class="privacy-note">
+                    🔒 <strong>Jaminan Kerahasiaan:</strong> Identitas dan masalah yang kamu tuliskan di sini dijamin aman dan hanya diketahui oleh Guru BK yang bersangkutan.
+                </div>
+                <form id="konselingForm">
+                    <div class="form-group">
+                        <label for="nama">Nama Lengkap / Inisial</label>
+                        <input type="text" id="nama" placeholder="Masukkan nama atau nama samaran" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="kelas">Kelas</label>
+                        <input type="text" id="kelas" placeholder="Contoh: XI MIPA 2" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="kategori">Topik / Kategori Masalah</label>
+                        <select id="kategori" required>
+                            <option value="">-- Pilih Topik Masalah --</option>
+                            <option value="akademik">Masalah Akademik / Belajar</option>
+                            <option value="pribadi">Masalah Pribadi / Keluarga</option>
+                            <option value="sosial">Masalah Sosial / Teman Sebaya</option>
+                            <option value="karier">Perencanaan Karier / Studi Lanjut</option>
+                             <option value="karier">Masalah Mental / Psikolog</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Metode Konseling yang Diinginkan</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="metode" value="offline" checked> Tatap Muka (Offline)
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="metode" value="online"> Chat / Video Call (Online)
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="pesan">Ceritakan Sedikit (Opsional)</label>
+                        <textarea id="pesan" rows="4" placeholder="Tuliskan keluhan atau waktu luang yang kamu inginkan..."></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Kirim Permintaan Konseling</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Sematan Kontak Darurat -->
+        <section id="darurat">
+            <div class="emergency-box">
+                <h3>🚨 Butuh Bantuan Darurat Segera?</h3>
+                <p>Jika kamu atau temanmu menghadapi situasi mendesak yang membutuhkan penanganan cepat, silakan hubungi hotline darurat di bawah ini:</p>
+                <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-danger">Chat Hotline Darurat BK (WhatsApp)</a>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Pusat Konseling & Layanan Pengaduan Ramah Siswa. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <!-- JavaScript Sederhana untuk Interaksi Form -->
+    <script>
+        document.getElementById('konselingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Terima kasih! Permintaan konseling rahasia kamu telah terkirim. Guru BK akan segera menghubungi melalui data yang kamu berikan.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
