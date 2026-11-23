@@ -1,0 +1,1 @@
+console.log("Kode dari file eksternal!");
